@@ -12,6 +12,7 @@ const TransactionHistory = ({items}) => {
     </tr>
   </thead>
 
+
   <tbody>
     {
       items.map((transactionItem) => (
