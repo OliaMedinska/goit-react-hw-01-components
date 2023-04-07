@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 const StatisticsItem = ({id, label, percentage}) => {
     return (
-      <li class="item" id={id}>
-        <span class="label">{label}</span>
-        <span class="percentage">{percentage}%</span>
+      <li className="item" id={id}>
+        <span className="label">{label}</span>
+        <span className="percentage">{percentage}%</span>
       </li>
       )
   };    

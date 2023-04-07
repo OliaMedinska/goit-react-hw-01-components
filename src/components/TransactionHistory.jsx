@@ -3,7 +3,7 @@ import TransactionHistoryItems from './TransactionHistoryItems';
 
 const TransactionHistory = ({items}) => {
     return(
-        <table class="transaction-history">
+        <table className="transaction-history">
   <thead>
     <tr>
       <th>Type</th>
