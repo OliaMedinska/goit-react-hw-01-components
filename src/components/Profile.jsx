@@ -1,24 +1,23 @@
 import PropTypes from 'prop-types';
-import { Label } from './Profile.styled';
 
 const Profile = ({ username, tag, location, avatar, stats: {followers, views, likes } }) => {
  //   const {followers, views, likes } = stats;
     return (
-        <div className="profile">
-  <div className="description">
+  <div className="profile">
+    <div className="description">
     <img
       src={avatar}
       alt={username}
-      class="avatar"
+      className="avatar"
     />
     <p className="name">{username}</p>
     <p className="tag">@{tag}</p>
     <p className="location">{location}</p>
-  </div>
+    </div>
 
   <ul className="">
   <li>
-      <Label>Followers</Label>
+      <span>Followers</span>
       <span className="quantity">{followers}</span>
     </li>
     <li>
