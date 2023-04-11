@@ -1,23 +1,25 @@
 import PropTypes from 'prop-types';
+import './Profile.css';
 
 const Profile = ({ username, tag, location, avatar, stats: {followers, views, likes } }) => {
  //   const {followers, views, likes } = stats;
     return (
   <div className="profile">
     <div className="description">
+    <div className="img-decor">
     <img
       src={avatar}
       alt={username}
       className="avatar"
     />
+    </div>
     <p className="name">{username}</p>
     <p className="tag">@{tag}</p>
     <p className="location">{location}</p>
-    </div>
-
-  <ul className="">
+<div className="list-decor">
+  <ul className="list">
   <li>
-      <span>Followers</span>
+      <span className="label">Followers</span>
       <span className="quantity">{followers}</span>
     </li>
     <li>
@@ -29,6 +31,8 @@ const Profile = ({ username, tag, location, avatar, stats: {followers, views, li
       <span className="quantity">{likes}</span>
     </li>
   </ul>
+  </div>
+  </div>
 </div>
     )
  };

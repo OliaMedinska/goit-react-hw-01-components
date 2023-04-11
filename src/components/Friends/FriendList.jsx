@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import FriendListItem from "./FriendListItem";
+import './Friend.css';
 
 const FriendList = ({friends}) => {
     return(
@@ -14,7 +15,7 @@ const FriendList = ({friends}) => {
         isOnline={friendsItem.isOnline}
         />
       ))
-    }
+    },
     </ul>)
 };
 
