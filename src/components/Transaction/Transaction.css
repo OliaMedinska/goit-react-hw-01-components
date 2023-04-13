@@ -1,37 +1,38 @@
-.transaction-history {
-    width: 800px;
-    background-color:rgb(251, 231, 255);
-    margin-bottom: 60px;
-    margin-left: 50px;
-  }
-  th {
-    font-size: 14px;
-    line-height: 4;
-    letter-spacing: 0.1em;
-    color: rgb(251, 231, 255);
-    text-transform: uppercase;
-    background-color: rgb(83, 2, 91);
-  }
 
-  .transaction-row {
-    background-color: rgb(251, 231, 255);
-  }
-  
-  td {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 14px;
-    line-height: 4;
-  }
-  .transaction-row-dark {
-    background-color: rgb(96, 30, 109);
-  }
-  .row-caption {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-  }
-  tr:hover {
-    background-color: rgb(179, 94, 197);
-    color: rgb(251, 231, 255);
-  }
+.transaction-history {
+  width: 800px;
+  background-color:rgb(251, 231, 255);
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+th {
+  font-size: 14px;
+  line-height: 4;
+  letter-spacing: 0.1em;
+  color: rgb(251, 231, 255);
+  text-transform: uppercase;
+  background-color: rgb(83, 2, 91);
+}
+
+.transaction-row {
+  background-color: rgb(251, 231, 255);
+}
+
+td {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 4;
+}
+.transaction-row-dark {
+  background-color: rgb(96, 30, 109);
+}
+.row-caption {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+tr:hover {
+  background-color: rgb(179, 94, 197);
+  color: rgb(251, 231, 255);
+}

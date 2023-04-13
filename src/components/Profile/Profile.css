@@ -1,63 +1,64 @@
+
 .profile {
-    padding-top: 40px;
-    max-width: 300px;
-    background-color: rgb(251, 231, 255);
-    border-radius: 5px;
-    margin-bottom: 60px;
-    margin-left: 50px;
-  }
-  .description {
-    text-align: center;
-  }
-  .name {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    font-size: 24px;
-    font-weight: 700;
-    color: rgb(174, 124, 179);
-  }
-  .tag {
-    font-size: 16px;
-    font-weight: normal;
-    color: rgb(83, 2, 91);
-    margin-bottom: 0px;
-  }
-  .location {
-    font-size: 16px;
-    font-weight: normal;
-    color: rgb(83, 2, 91);
-    margin-bottom: 0px;
-  }
-  .list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0px;
-    list-style-type: none;
-  }
-  .label {
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    font-weight: normal;
-    color: rgb(126, 19, 126);
-  }
-  .quantity {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(83, 2, 91);
-  }
-  .list li {
-    padding: 8px;
-    border: 1px solid rgb(169, 62, 179);
-    border-radius: 0 0 5px 5px;
-    background-color: #e4b8f6;
-    flex-basis: 33.33%;
-  }
-  .avatar {
-    margin: 0 auto;
-    width: 50%;
-  }
+  padding-top: 40px;
+  max-width: 300px;
+  background-color: rgb(251, 231, 255);
+  border-radius: 5px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.description {
+  text-align: center;
+}
+.name {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(174, 124, 179);
+}
+.tag {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(83, 2, 91);
+  margin-bottom: 0px;
+}
+.location {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(83, 2, 91);
+  margin-bottom: 0px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(126, 19, 126);
+}
+.quantity {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(83, 2, 91);
+}
+.list li {
+  padding: 8px;
+  border: 1px solid rgb(169, 62, 179);
+  border-radius: 0 0 5px 5px;
+  background-color: #e4b8f6;
+  flex-basis: 33.33%;
+}
+.avatar {
+  margin: 0 auto;
+  width: 50%;
+}
 
