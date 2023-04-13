@@ -1,12 +1,12 @@
-
 import StatisticsItem from './StatisticsItem';
 import PropTypes from 'prop-types';
 import './Statistics.css';
 
-const Statistics = ({stats}) => {
+const Statistics = ({stats, title}) => {
    return (
-   <section className="statistics">
-   <h2 className="title">Upload stats</h2>
+   <section className="statistics">{title && (
+   <h2 className="title">{title}</h2>
+   )}
 
   <ul className="stat-list">
     {
