@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './Profile.css';
 
 const Profile = ({ username, tag, location, avatar, stats: {followers, views, likes } }) => {
- //   const {followers, views, likes } = stats;
     return (
   <div className="profile">
     <div className="description">

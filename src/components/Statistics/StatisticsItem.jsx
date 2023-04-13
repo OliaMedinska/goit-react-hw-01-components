@@ -2,9 +2,9 @@
 import PropTypes from 'prop-types';
 import './Statistics.css';
 
-const StatisticsItem = ({id, label, percentage}) => {
+const StatisticsItem = ({label, percentage}) => {
     return (
-      <li className="item" id={id}>
+      <li className="item">
         <span className="label">{label}</span>
         <span className="percentage">{percentage}%</span>
       </li>
