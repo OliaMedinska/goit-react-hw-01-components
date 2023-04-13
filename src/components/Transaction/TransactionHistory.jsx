@@ -20,7 +20,6 @@ const TransactionHistory = ({items}) => {
       items.map((transactionItem) => (
         <TransactionHistoryItems
         key={transactionItem.id}
-        id={transactionItem.id}
         type={transactionItem.type}
         amount={transactionItem.amount}
         currency={transactionItem.currency}

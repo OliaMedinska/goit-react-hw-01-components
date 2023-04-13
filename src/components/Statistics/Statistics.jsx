@@ -13,7 +13,6 @@ const Statistics = ({stats}) => {
       stats.map((statItem) => (
         <StatisticsItem
         key={statItem.id}
-        id={statItem.id}
         label={statItem.label}
         percentage={statItem.percentage}
         />
